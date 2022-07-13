@@ -1,0 +1,21 @@
+server:
+  port: 7676
+  
+spring: 
+  h2:
+    console:
+      enabled: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/testSearch
+    username: sa
+    password:   
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true     
+    
+
+  application:
+    name: CART-SERVICE
