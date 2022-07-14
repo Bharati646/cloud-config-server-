@@ -8,6 +8,7 @@ import com.citiustech.model.Cart;
 import com.citiustech.model.Product;
 import com.citiustech.repository.CartRepository;
 
+@Service
 public class CartService {
 
 	@Autowired
